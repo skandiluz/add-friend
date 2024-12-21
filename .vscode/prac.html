@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel = "stylesheet" href = "prac.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .Search-bar
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image-cat
+{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  
+  
+}
+.name
+{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.mutuals
+{
+  color: grey;
+}
+.add-button
+{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.image-grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+.mutual-profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.mutual-row{
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.Search-bar{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  width: 200px;
+}
+  </style>
+</head>
+<body>
+  <div class="image-grid">
+    <div class="Search-bar">
+      <img class="image-cat" src="images.jpg" alt = "cat">
+      <p class="name">
+        Oliver
+      </p>
+      <div class="mutual-row">
+        <img class="mutual-profile" src="mutual-profile.jpg" alt = "mutual">
+        <p class="mutuals">
+          2 mutual friends
+        </p>
+      </div>
+      <button class="add-button">
+        Add Friend
+      </button>
+    </div>
+
+    <div class="Search-bar">
+      <img class="image-cat" src="hotdog.jpg" alt="cat">
+      <p class="name">
+        Mimi
+      </p>
+      <div class="mutual-row">
+        <img class="mutual-profile" src="mutual-profile.jpg" alt = "mutual">
+        <p class="mutuals">
+          3 mutual friends
+        </p>
+      </div>
+      <button class="add-button">
+        Add Friend
+      </button>
+    </div>
+    <div class="Search-bar">
+      <img class="image-cat" src="sleepyhead.jpg" alt="cat">
+      <p class="name">
+        rex
+      </p>
+      <div class="mutual-row">
+        <img class="mutual-profile" src="mutual-profile.jpg" alt = "mutual">
+        <p class="mutuals">
+          4 mutual friends
+        </p>
+      </div>
+      <button class="add-button">
+        Add Friend
+      </button>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
